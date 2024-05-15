@@ -1,0 +1,12 @@
+{
+    "Print to Console": {  
+        "prefix": "pyfunc",  
+        "body": [ 
+            "def $1_function_name($2):",
+            "    \"\"\"Documentation for the function: $1_function_name.\"\"\"",
+            "    # TODO: implement function",
+            "    return $3"
+        ],
+        "description": "Creates a Python function template" 
+    }
+}
